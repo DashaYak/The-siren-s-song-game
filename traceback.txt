@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 350, in script
+    jump.photo
+ScriptError: could not find label 'sleep.photo'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 350, in script
+    jump.photo
+  File "D:\renpy-8.3.7-sdk\renpy\ast.py", line 1712, in execute
+    rv = renpy.game.script.lookup(target)
+  File "D:\renpy-8.3.7-sdk\renpy\script.py", line 1103, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'sleep.photo'.
+
+Windows-10-10.0.19045 AMD64
+Ren'Py 8.3.8.25042801+nightly
+The Siren's Song 
+Fri May 16 01:16:39 2025
