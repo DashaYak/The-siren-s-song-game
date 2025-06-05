@@ -1,0 +1,6 @@
+cache
+saves
+*.rpyc
+tmp
+tl
+*.txt
